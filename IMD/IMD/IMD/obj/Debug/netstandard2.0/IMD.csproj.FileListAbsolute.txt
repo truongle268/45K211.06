@@ -16,3 +16,21 @@ D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD\obj\Debug\netstandard2.0\ref\IMD.dll
 D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.pdb
 D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD\obj\Debug\netstandard2.0\Home.xaml.g.cs
 D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD\obj\Debug\netstandard2.0\Signin.xaml.g.cs
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.csproj.AssemblyReference.cache
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.GeneratedMSBuildEditorConfig.editorconfig
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.dll
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\ref\IMD.dll
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.pdb
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\bin\Debug\netstandard2.0\IMD.deps.json
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\bin\Debug\netstandard2.0\IMD.dll
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\bin\Debug\netstandard2.0\ref\IMD.dll
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\bin\Debug\netstandard2.0\IMD.pdb
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\Home.xaml.g.cs
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\LoginUI.xaml.g.cs
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\Signin.xaml.g.cs
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.AssemblyInfoInputs.cache
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.AssemblyInfo.cs
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.csproj.CoreCompileInputs.cache
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\XamlC.stamp

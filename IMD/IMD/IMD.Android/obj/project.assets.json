@@ -2148,11 +2148,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ki 2 nam 3\\Quan tri du an\\IMD\\IMD\\IMD.Android\\IMD.Android.csproj",
+      "projectUniqueName": "D:\\QTDA nhom 6\\45K211_06\\IMD\\IMD\\IMD.Android\\IMD.Android.csproj",
       "projectName": "IMD.Android",
-      "projectPath": "D:\\Ki 2 nam 3\\Quan tri du an\\IMD\\IMD\\IMD.Android\\IMD.Android.csproj",
+      "projectPath": "D:\\QTDA nhom 6\\45K211_06\\IMD\\IMD\\IMD.Android\\IMD.Android.csproj",
       "packagesPath": "C:\\Users\\Ly\\.nuget\\packages\\",
-      "outputPath": "D:\\Ki 2 nam 3\\Quan tri du an\\IMD\\IMD\\IMD.Android\\obj\\",
+      "outputPath": "D:\\QTDA nhom 6\\45K211_06\\IMD\\IMD\\IMD.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2173,8 +2173,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "D:\\Ki 2 nam 3\\Quan tri du an\\IMD\\IMD\\IMD\\IMD.csproj": {
-              "projectPath": "D:\\Ki 2 nam 3\\Quan tri du an\\IMD\\IMD\\IMD\\IMD.csproj"
+            "D:\\QTDA nhom 6\\45K211_06\\IMD\\IMD\\IMD\\IMD.csproj": {
+              "projectPath": "D:\\QTDA nhom 6\\45K211_06\\IMD\\IMD\\IMD\\IMD.csproj"
             }
           }
         }

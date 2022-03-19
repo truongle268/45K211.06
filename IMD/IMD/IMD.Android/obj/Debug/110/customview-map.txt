@@ -1,50 +1,50 @@
-@string/appbar_scrolling_view_behavior;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
-alpha;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
-alpha;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
-androidx.appcompat.widget.Toolbar;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\fallbacktoolbardonotuse.xml
-androidx.appcompat.widget.Toolbar;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
-androidx.appcompat.widget.Toolbar;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
-androidx.appcompat.widget.Toolbar;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\toolbar.xml
-androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
-androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
-attr;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
+alpha;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
+alpha;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
+androidx.appcompat.widget.Toolbar;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\fallbacktoolbardonotuse.xml
+androidx.appcompat.widget.Toolbar;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+androidx.appcompat.widget.Toolbar;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
+androidx.appcompat.widget.Toolbar;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\toolbar.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
+attr;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
 background;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
-cache-path;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\110\res\values\colors.xml
-com.google.android.material.appbar.AppBarLayout;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\flyoutcontent.xml
-com.google.android.material.appbar.AppBarLayout;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
-com.google.android.material.appbar.AppBarLayout;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
-com.google.android.material.bottomnavigation.BottomNavigationView;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
-com.google.android.material.tabs.TabLayout;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\fallbacktabbardonotuse.xml
-com.google.android.material.tabs.TabLayout;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
-com.google.android.material.tabs.TabLayout;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\tabbar.xml
-declare-styleable;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
-external-cache-path;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+com.google.android.material.appbar.AppBarLayout;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\flyoutcontent.xml
+com.google.android.material.appbar.AppBarLayout;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+com.google.android.material.appbar.AppBarLayout;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\shellcontent.xml
+com.google.android.material.bottomnavigation.BottomNavigationView;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
+com.google.android.material.tabs.TabLayout;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\fallbacktabbardonotuse.xml
+com.google.android.material.tabs.TabLayout;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+com.google.android.material.tabs.TabLayout;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\tabbar.xml
+declare-styleable;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
+external-cache-path;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\110\res\mipmap-anydpi-v26\icon_round.xml
-FrameLayout;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
-item;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
-LinearLayout;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
-paths;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-resources;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
-resources;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\strings.xml
-resources;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
+FrameLayout;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
+item;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
+LinearLayout;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\bottomtablayout.xml
+paths;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\44\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\attrs.xml
+resources;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\strings.xml
+resources;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
 resources;obj\Debug\110\res\values\colors.xml
 resources;obj\Debug\110\res\values\styles.xml
-set;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
-set;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromright.xml
-set;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
-set;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\exittoright.xml
-string;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\strings.xml
-style;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
+set;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
+set;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromright.xml
+set;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
+set;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\exittoright.xml
+string;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\strings.xml
+style;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\values\styles.xml
 style;obj\Debug\110\res\values\styles.xml
-translate;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
-translate;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromright.xml
-translate;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
-translate;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\exittoright.xml
-xamarin.forms.platform.android.appcompat.FormsViewPager;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
-xamarin.forms.platform.android.ShellFlyoutLayout;D:\Ki 2 nam 3\Quan tri du an\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\flyoutcontent.xml
+translate;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromleft.xml
+translate;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\enterfromright.xml
+translate;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\exittoleft.xml
+translate;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\rootlayout.xml
+xamarin.forms.platform.android.ShellFlyoutLayout;D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\lp\45\jl\res\layout\flyoutcontent.xml

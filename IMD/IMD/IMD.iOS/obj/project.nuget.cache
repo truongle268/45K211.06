@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lqT3TeDVvWDzMctSOakTzr1zX6TPthDIfJEOBNiKi91WA5d+Ignex6orHsS9po996Ig3F4H2h/9FuhXNbl5YUg==",
+  "dgSpecHash": "ujZ8SMurTQAVeSr207Jd/2rYq8MwjLSH2+vMZ14cf+KLSHGx1Pt2tVvnf/jsV9i6vZo3WyzMM1KeIdJO2EMhCw==",
   "success": true,
-  "projectFilePath": "D:\\Ki 2 nam 3\\Quan tri du an\\IMD\\IMD\\IMD.iOS\\IMD.iOS.csproj",
+  "projectFilePath": "D:\\QTDA nhom 6\\45K211_06\\IMD\\IMD\\IMD.iOS\\IMD.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ly\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
