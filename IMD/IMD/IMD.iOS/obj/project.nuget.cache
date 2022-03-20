@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ujZ8SMurTQAVeSr207Jd/2rYq8MwjLSH2+vMZ14cf+KLSHGx1Pt2tVvnf/jsV9i6vZo3WyzMM1KeIdJO2EMhCw==",
+  "dgSpecHash": "pwx+dujqG/6zCUbeocj1eQaSz5gI/V6btDL6iTbHDi6d4j85rUFv6JDCa7NMnZUhXS3on8jnCgR1AkGG/RvZgQ==",
   "success": true,
-  "projectFilePath": "D:\\QTDA nhom 6\\45K211_06\\IMD\\IMD\\IMD.iOS\\IMD.iOS.csproj",
+  "projectFilePath": "E:\\STUDY-Q\\Clone GitHub\\45K211_06\\IMD\\IMD\\IMD.iOS\\IMD.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Ly\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
