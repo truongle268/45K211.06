@@ -12,5 +12,6 @@ namespace IMD.Models
         public string Dongxe { get; set; }
         public string Mauxe { get; set; }
         public string Password { get; set; }
+
     }
 }
