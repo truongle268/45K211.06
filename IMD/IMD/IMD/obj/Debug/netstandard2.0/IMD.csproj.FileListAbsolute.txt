@@ -34,22 +34,3 @@ D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.AssemblyInfoIn
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.AssemblyInfo.cs
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.csproj.CoreCompileInputs.cache
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\XamlC.stamp
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\bin\Debug\netstandard2.0\IMD.deps.json
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\bin\Debug\netstandard2.0\IMD.dll
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\bin\Debug\netstandard2.0\ref\IMD.dll
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\bin\Debug\netstandard2.0\IMD.pdb
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.csproj.AssemblyReference.cache
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.GeneratedMSBuildEditorConfig.editorconfig
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\App.xaml.g.cs
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\Home.xaml.g.cs
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\LoginUI.xaml.g.cs
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\Signin.xaml.g.cs
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.AssemblyInfoInputs.cache
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.AssemblyInfo.cs
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.csproj.CoreCompileInputs.cache
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\XamlC.stamp
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.dll
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\ref\IMD.dll
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.pdb
-E:\STUDY-Q\Clone GitHub\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\Tickets.xaml.g.cs
