@@ -6,8 +6,8 @@
     <ContentPage.Content>
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
             <Image Source="logoIMD.jpg" WidthRequest="165" HeightRequest="165"></Image>
-            <Entry x:Name="txtUsername" Placeholder="Biển số xe"  TextColor = "Black" PlaceholderColor="Gray"></Entry>
-            <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="True"  TextColor="Black" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtUsername" Placeholder="Biển số xe"  TextColor = "White" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtPassword" Placeholder="Password" IsPassword="True"  TextColor="White" PlaceholderColor="Gray"></Entry>
             <Button
                 VerticalOptions="Center"
                 Text="Đăng nhập"
