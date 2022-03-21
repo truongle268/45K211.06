@@ -4,16 +4,9 @@
              x:Class="IMD.Home">
     <ContentPage.Content>
         <StackLayout>
-            <Label HorizontalOptions="Center" VerticalOptions="Start" >
-                <Label.FormattedText >
-                    <FormattedString>
-                        <Span Text="Các gói đăng ký" TextColor="#150295" FontSize="Medium"   />
-                    </FormattedString>
-                </Label.FormattedText>
-                <Label.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
-                </Label.GestureRecognizers>
-            </Label>
+            <Label Text="Chào mừng bạn đến với phần mềm quản l!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
