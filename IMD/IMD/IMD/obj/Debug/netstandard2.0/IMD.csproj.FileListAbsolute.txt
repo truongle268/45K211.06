@@ -34,3 +34,8 @@ D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.AssemblyInfoIn
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.AssemblyInfo.cs
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.csproj.CoreCompileInputs.cache
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\XamlC.stamp
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD\App.xaml.g.cs
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD\Home.xaml.g.cs
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD\LoginUI.xaml.g.cs
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD\MainPage.xaml.g.cs
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD\Signin.xaml.g.cs
