@@ -7,6 +7,10 @@
             <Label Text="Chào mừng bạn đến với phần mềm quản l!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <Button Text="Các gói đăng ký" 
+                Clicked="Button_Clicked"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -34,3 +34,4 @@ D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.AssemblyInfoIn
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.AssemblyInfo.cs
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\IMD.csproj.CoreCompileInputs.cache
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\XamlC.stamp
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD\obj\Debug\netstandard2.0\Tickets.xaml.g.cs

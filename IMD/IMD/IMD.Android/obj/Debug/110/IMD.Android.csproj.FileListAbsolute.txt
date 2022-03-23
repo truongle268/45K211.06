@@ -1152,3 +1152,4 @@ D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\stamp\_ConvertResourc
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\stamp\_GenerateJavaStubs.stamp
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\stamp\_GeneratePackageManagerJava.stamp
 D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\stamp\_ResolveLibraryProjectImports.stamp
+D:\QTDA nhom 6\45K211_06\IMD\IMD\IMD.Android\obj\Debug\110\res\drawable\infoticket.png
