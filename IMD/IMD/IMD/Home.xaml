@@ -11,6 +11,12 @@
                 Clicked="Button_Clicked"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
+                
+            <Button Text="Dang xuat" 
+                Clicked="Button_Clicked3"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
