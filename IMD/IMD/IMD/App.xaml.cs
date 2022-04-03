@@ -11,7 +11,8 @@ namespace IMD
             InitializeComponent();
 
             //MainPage = new MainPage();
-            MainPage = new NavigationPage( new LoginUI());
+            // MainPage = new NavigationPage( new LoginUI());
+            MainPage = new MyFlyoutPage();
         }
 
         protected override void OnStart()
