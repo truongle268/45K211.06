@@ -21,9 +21,5 @@ namespace IMD
         {
             Navigation.PushAsync(new Tickets());
         }
-        private void Button_Clicked3(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new LoginUI());
-        }
     }
 }
