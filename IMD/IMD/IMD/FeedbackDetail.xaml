@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Đăng Feedback"
+             x:Class="IMD.FeedbackDetail">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Entry Placeholder="Tiêu đề"
+                  x:Name="titleFBEntry"
+                   TextTransform="Uppercase"/>
+            <Entry Placeholder="Nội dung"
+                   x:Name="enterFBEntry"/>
+            <Button Text="Đăng"
+                    Clicked="Button_SendFB"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

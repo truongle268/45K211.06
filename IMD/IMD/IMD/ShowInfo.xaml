@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Xem thông tin sinh viên"
+             x:Class="IMD.ShowInfo">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cập nhật"
+                     Clicked="Toolbar_ClickedUd"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+        <CollectionView x:Name="myShowInfo"
+                        SelectionMode="Single"
+                        Margin="20,5,20,0">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <SwipeView>
+                        <SwipeView.RightItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Sửa"
+                                           BackgroundColor="LightBlue"
+                                           CommandParameter="{Binding .}"
+                                           Invoked="SwipeItem_InvokedSh"/>
+                                <SwipeItem Text="Xóa"
+                                           BackgroundColor="IndianRed"
+                                           CommandParameter="{Binding .}"
+                                           Invoked="SwipeItem_InvokedDl"/>
+                            </SwipeItems>
+                        </SwipeView.RightItems>
+
+                        <Grid RowSpacing="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="20"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Text="{Binding HoTen}"
+                              Grid.Row="0" Grid.Column="1"
+                              VerticalOptions="CenterAndExpand"
+                               FontSize="20"/>
+                            <Label Text="{Binding MaSV}"
+                              Grid.Row="1" Grid.Column="1"
+                              VerticalOptions="CenterAndExpand"
+                               FontSize="20"/>
+                            <Label Text="{Binding BienSo}"
+                              Grid.Row="2" Grid.Column="1"
+                              VerticalOptions="CenterAndExpand"
+                               FontSize="20"/>
+                            <Label Text="{Binding DongXe}"
+                              Grid.Row="3" Grid.Column="1"
+                              VerticalOptions="CenterAndExpand"
+                               FontSize="20"/>
+                            <Label Text="{Binding MauXe}"
+                              Grid.Row="4" Grid.Column="1"
+                              VerticalOptions="CenterAndExpand"
+                               FontSize="20"/>
+                            <Label Text="{Binding MatKhau}"
+                              Grid.Row="5" Grid.Column="1"
+                              VerticalOptions="CenterAndExpand"
+                               FontSize="20"/>
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

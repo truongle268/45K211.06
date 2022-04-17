@@ -19,7 +19,7 @@
                 BorderColor="White"
                 BorderWidth="1.5"
                 CornerRadius="50"
-                Clicked ="Button_Clicked" ></Button>
+                Clicked ="Button_ClickedSignin" ></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

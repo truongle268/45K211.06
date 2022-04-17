@@ -26,5 +26,23 @@ namespace IMD
         {
             Navigation.PushAsync(new LoginUI());
         }
+
+        private void Button_ClickedShow(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ShowInfo());
+        }
+
+        private void Button_ClickedMg(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ManageInfo());
+        }
+        private void Button_Clicked2(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DeliveryInform());
+        }
+        private void Button_Feedback(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Feedback());
+        }
     }
 }

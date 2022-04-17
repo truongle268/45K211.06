@@ -7,12 +7,32 @@
             <Label Text="Chào mừng bạn đến với phần mềm quản l!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            
             <Button Text="Các gói đăng ký" 
                 Clicked="Button_Clicked"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
+
+            <Button Text="Xem thông tin sinh viên"
+                Clicked="Button_ClickedShow"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            
+            <Button Text="Quản lý thông tin sinh viên"
+                Clicked="Button_ClickedMg"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            
             <Button Text="Đăng xuất"
                 Clicked="Button_Clicked3"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            <Button Text="Thông báo gửi xe"
+                Clicked="Button_Clicked2"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"/>
+            <Button Text="Feedback"
+                Clicked="Button_Feedback"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
         </StackLayout>
