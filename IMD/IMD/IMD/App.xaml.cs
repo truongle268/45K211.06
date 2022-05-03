@@ -2,11 +2,12 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using System.IO;
-
+using IMD.Models;
 namespace IMD
 {
     public partial class App : Application
     {
+        IAuth auth;
         private static SQLiteHelper db;
         public static SQLiteHelper MyDatabase
         {
@@ -33,26 +34,17 @@ namespace IMD
                 return dc;
             }
         }
-        private static SQLiteShowInfo de;
-        public static SQLiteShowInfo MyDatabaseSI
-        {
-            get
-            {
-                if (de == null)
-                {
-                    de = new SQLiteShowInfo(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-                        "MyStore.de3"));
-                }
-                return de;
-            }
-        }
+
+       
         public App()
         {
             InitializeComponent();
+            auth = DependencyService.Get<IAuth>();
 
             //MainPage = new MainPage();
-            MainPage = new NavigationPage( new LoginUI());
-         //   MainPage = new MyFlyoutPage();
+            // thấy chỗ này vô nghĩa không? trả về true hay false đều load LoginUI()
+            MainPage = new NavigationPage(new LoginUI());
+            //   MainPage = new MyFlyoutPage();
         }
 
         protected override void OnStart()

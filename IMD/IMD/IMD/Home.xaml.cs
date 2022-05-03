@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IMD.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,7 @@ namespace IMD
         public Home()
         {
             InitializeComponent();
+            btnManage.IsVisible = Constants.IsAdmin;
         }
 
         private void Button_Clicked(object sender, EventArgs e)
@@ -38,11 +40,15 @@ namespace IMD
         }
         private void Button_Clicked2(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new DeliveryInform());
+            Application.Current.MainPage.Navigation.PushAsync(new DeliveryInform());
         }
         private void Button_Feedback(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Feedback());
+        }
+        private void Button_Clicked_Manage(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ManageInfo());
         }
     }
 }

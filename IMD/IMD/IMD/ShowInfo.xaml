@@ -1,68 +1,198 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Title="Xem thông tin sinh viên"
              x:Class="IMD.ShowInfo">
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Cập nhật"
-                     Clicked="Toolbar_ClickedUd"/>
-    </ContentPage.ToolbarItems>
-    <StackLayout>
-        <CollectionView x:Name="myShowInfo"
-                        SelectionMode="Single"
-                        Margin="20,5,20,0">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <SwipeView>
-                        <SwipeView.RightItems>
-                            <SwipeItems>
-                                <SwipeItem Text="Sửa"
-                                           BackgroundColor="LightBlue"
-                                           CommandParameter="{Binding .}"
-                                           Invoked="SwipeItem_InvokedSh"/>
-                                <SwipeItem Text="Xóa"
-                                           BackgroundColor="IndianRed"
-                                           CommandParameter="{Binding .}"
-                                           Invoked="SwipeItem_InvokedDl"/>
-                            </SwipeItems>
-                        </SwipeView.RightItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor=" #496192" Padding="24" CornerRadius="0">
+                <Label Text="THÔNG TIN SINH VIÊN" HorizontalTextAlignment="Center" TextColor="White" FontAttributes="Bold" FontSize="25"/>
+            </Frame>
 
-                        <Grid RowSpacing="0">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="20"/>
-                            </Grid.ColumnDefinitions>
+            <Grid Margin="0,30,0,5">
+                <Grid.Resources>
+                    <Style TargetType="Label">
+                        <Setter Property="FontSize" Value="20"></Setter>
+                        <Setter Property="HorizontalOptions" Value="StartAndExpand"></Setter>
+                        <Setter Property="VerticalOptions" Value="CenterAndExpand"></Setter>
+                        <Setter Property="Margin" Value="20,0,10,0"></Setter>
+                    </Style>
+                    <Style TargetType="Grid">
+                        <Setter Property="RowSpacing" Value="0"></Setter>
+                    </Style>
+                </Grid.Resources>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="10"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="Họ và tên"></Label>
+                    <Label Grid.Column="1" Text=":"></Label>
+                    <Entry Grid.Column="2" Text="{Binding Userr.HoTen}"></Entry>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="10"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="Mã SV"></Label>
+                    <Label Grid.Column="1" Text=":"></Label>
+                    <Entry Grid.Column="2" Text="{Binding Userr.MaSV}"></Entry>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="10"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="Biển số"></Label>
+                    <Label Grid.Column="1" Text=":"></Label>
+                    <Entry Grid.Column="2" Text="{Binding Userr.BienSo}"></Entry>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="10"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="Dòng xe"></Label>
+                    <Label Grid.Column="1" Text=":"></Label>
+                    <Entry Grid.Column="2" Text="{Binding Userr.DongXe}"></Entry>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="10"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="Màu xe"></Label>
+                    <Label Grid.Column="1" Text=":"></Label>
+                    <Entry Grid.Column="2" Text="{Binding Userr.MauXe}"></Entry>
+                </Grid>
+                <Grid Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="10"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Text="Mật khẩu"></Label>
+                    <Label Grid.Column="1" Text=":"></Label>
+                    <Entry Grid.Column="2" Text="{Binding Userr.NhapMatKhau}"></Entry>
+                </Grid>
+            </Grid>
 
-                            <Label Text="{Binding HoTen}"
-                              Grid.Row="0" Grid.Column="1"
-                              VerticalOptions="CenterAndExpand"
-                               FontSize="20"/>
-                            <Label Text="{Binding MaSV}"
-                              Grid.Row="1" Grid.Column="1"
-                              VerticalOptions="CenterAndExpand"
-                               FontSize="20"/>
-                            <Label Text="{Binding BienSo}"
-                              Grid.Row="2" Grid.Column="1"
-                              VerticalOptions="CenterAndExpand"
-                               FontSize="20"/>
-                            <Label Text="{Binding DongXe}"
-                              Grid.Row="3" Grid.Column="1"
-                              VerticalOptions="CenterAndExpand"
-                               FontSize="20"/>
-                            <Label Text="{Binding MauXe}"
-                              Grid.Row="4" Grid.Column="1"
-                              VerticalOptions="CenterAndExpand"
-                               FontSize="20"/>
-                            <Label Text="{Binding MatKhau}"
-                              Grid.Row="5" Grid.Column="1"
-                              VerticalOptions="CenterAndExpand"
-                               FontSize="20"/>
-                        </Grid>
-                    </SwipeView>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-    </StackLayout>
+            <Button BackgroundColor="#496192" Margin="20" CornerRadius="5" HeightRequest="50"
+                    Text="Sửa" TextColor="White" Command="{Binding UpdateUserInfo}"></Button>
+
+            <!--<ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="LightGray">
+                <FlexLayout BindableLayout.ItemsSource="{Binding BindingContext.ListUser, Source={RelativeSource FindAncestor, AncestorType={x:Type ContentPage}}}"
+                            Direction="Column" AlignItems="Stretch" Wrap="NoWrap" JustifyContent="Center" HorizontalOptions="FillAndExpand"
+                            Margin="0">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="0,0,0,5" BackgroundColor="White">
+                                <Grid.Resources>
+                                    <Style TargetType="Label">
+                                        <Setter Property="FontSize" Value="20"></Setter>
+                                        <Setter Property="HorizontalOptions" Value="StartAndExpand"></Setter>
+                                        <Setter Property="Margin" Value="20,0,10,0"></Setter>
+                                    </Style>
+                                    <Style TargetType="Grid">
+                                        <Setter Property="RowSpacing" Value="0"></Setter>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Họ và tên"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Label Grid.Column="2" Text="{Binding HoTen}"></Label>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Mã SV"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Label Grid.Column="2" Text="{Binding MaSV}"></Label>
+                                </Grid>
+                                <Grid Grid.Row="2">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Biển số"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Label Grid.Column="2" Text="{Binding BienSo}"></Label>
+                                </Grid>
+                                <Grid Grid.Row="3">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Dòng xe"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Label Grid.Column="2" Text="{Binding DongXe}"></Label>
+                                </Grid>
+                                <Grid Grid.Row="4">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Màu xe"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Label Grid.Column="2" Text="{Binding MauXe}"></Label>
+                                </Grid>
+                                <Grid Grid.Row="5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Mật khẩu"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Label Grid.Column="2" Text="{Binding NhapMatKhau}"></Label>
+                                </Grid>
+                                <Grid Grid.Row="6">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Grid.Column="0" Text="Sửa"></Button>
+                                    <Button Grid.Column="1" Text="Xóa"></Button>
+                                </Grid>
+                            </Grid>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </FlexLayout>
+            </ScrollView>-->
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

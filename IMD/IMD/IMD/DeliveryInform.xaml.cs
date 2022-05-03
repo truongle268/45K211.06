@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using IMD.Models;
+using IMD.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -12,9 +13,11 @@ namespace IMD
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DeliveryInform
     {
+        public DeliveryInformViewModel ViewModel { get; set; }
         public DeliveryInform()
         {
             InitializeComponent();
+            BindingContext = ViewModel = new DeliveryInformViewModel();
         }
         protected override async void OnAppearing()
         {
@@ -27,7 +30,14 @@ namespace IMD
         }
         async void Toolbar_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new InformDetail());
+            if (ViewModel.IsAdmin)
+            {
+                await Navigation.PushAsync(new InformDetail());
+            }
+            else
+            {
+                DisplayAlert("Thông báo", "User không được thêm thông báo!", "OK");
+            }
         }
 
         async void SwipeItem_Invoked(object sender, EventArgs e)

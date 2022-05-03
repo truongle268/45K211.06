@@ -5,25 +5,111 @@
     <ContentPage.Content>
         <StackLayout>
             <Frame BackgroundColor=" #496192" Padding="24" CornerRadius="0">
-                <Label Text="QUẢN LÝ THÔNG TIN SINH VIÊN" HorizontalTextAlignment="Center" TextColor="White" FontAttributes="Bold" FontSize="22"/>
+                <Label Text="QUẢN LÝ THÔNG TIN SINH VIÊN" HorizontalTextAlignment="Center" TextColor="White" FontAttributes="Bold" FontSize="25"/>
             </Frame>
-            
-            <Grid Padding="10" RowDefinitions="40,40,40,40,40">
-                <Label VerticalOptions="Start" Text="{Binding HoTen}" Grid.Column="0" Grid.Row="0"/>
 
-                <Label VerticalOptions="Start" Text="{Binding MaSV}" Grid.Column="0" Grid.Row="1"/>
+            <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="LightGray">
+                <FlexLayout BindableLayout.ItemsSource="{Binding BindingContext.ListUser, Source={RelativeSource FindAncestor, AncestorType={x:Type ContentPage}}}"
+                            Direction="Column" AlignItems="Stretch" Wrap="NoWrap" JustifyContent="Center" HorizontalOptions="FillAndExpand"
+                            Margin="0">
+                    <BindableLayout.ItemTemplate>
+                        <DataTemplate>
+                            <Grid Margin="0,0,0,5" BackgroundColor="White">
+                                <Grid.Resources>
+                                    <Style TargetType="Label">
+                                        <Setter Property="FontSize" Value="20"></Setter>
+                                        <Setter Property="HorizontalOptions" Value="StartAndExpand"></Setter>
+                                        <Setter Property="VerticalOptions" Value="CenterAndExpand"></Setter>
+                                        <Setter Property="VerticalTextAlignment" Value="Center"></Setter>
+                                        <Setter Property="Margin" Value="20,0,10,0"></Setter>
+                                    </Style>
+                                    <Style TargetType="Grid">
+                                        <Setter Property="RowSpacing" Value="0"></Setter>
+                                    </Style>
+                                </Grid.Resources>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Họ và tên"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Entry Grid.Column="2" Text="{Binding HoTen}"></Entry>
+                                </Grid>
+                                <Grid Grid.Row="1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Mã SV"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Entry Grid.Column="2" Text="{Binding MaSV}"></Entry>
+                                </Grid>
+                                <Grid Grid.Row="2">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Biển số"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Entry Grid.Column="2" Text="{Binding BienSo}"></Entry>
+                                </Grid>
+                                <Grid Grid.Row="3">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Dòng xe"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Entry Grid.Column="2" Text="{Binding DongXe}"></Entry>
+                                </Grid>
+                                <Grid Grid.Row="4">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Màu xe"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Entry Grid.Column="2" Text="{Binding MauXe}"></Entry>
+                                </Grid>
+                                <Grid Grid.Row="5">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="10"></ColumnDefinition>
+                                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="Mật khẩu"></Label>
+                                    <Label Grid.Column="1" Text=":"></Label>
+                                    <Entry Grid.Column="2" Text="{Binding NhapMatKhau}"></Entry>
+                                </Grid>
+                                <Grid Grid.Row="6">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition></ColumnDefinition>
+                                        <ColumnDefinition></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Grid.Column="0" Text="Sửa" Command="{Binding BindingContext.OnClickUpdateInfo, Source={RelativeSource FindAncestor, AncestorType={x:Type ContentPage}}}" CommandParameter="{Binding .}"></Button>
+                                    <Button Grid.Column="1" Text="Xóa" Command="{Binding BindingContext.OnClickDeleteInfo, Source={RelativeSource FindAncestor, AncestorType={x:Type ContentPage}}}" CommandParameter="{Binding .}"></Button>
+                                </Grid>
+                            </Grid>
 
-                <Label VerticalOptions="Start" Text="{Binding BienSo}" Grid.Column="0" Grid.Row="2"/>
-
-                <Label VerticalOptions="Start" Text="{Binding DongXe}" Grid.Column="0" Grid.Row="3"/>
-
-                <Label VerticalOptions="Start" Text="{Binding MauXe}" Grid.Column="0" Grid.Row="4"/>
-
-                <Label VerticalOptions="Start" Text="{Binding MauXe}" Grid.Column="0" Grid.Row="4"/>
-                
-                <Label VerticalOptions="Start" Text="{Binding MauXe}" Grid.Column="0" Grid.Row="4"/>
-
-            </Grid>
+                        </DataTemplate>
+                    </BindableLayout.ItemTemplate>
+                </FlexLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

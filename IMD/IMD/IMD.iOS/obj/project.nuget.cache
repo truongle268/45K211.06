@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "c8RHYOxansVSuZzB8rLHaMBF7cZubNcQTDv8wbyk6arIyzkpnmZLwhBF3ilP87E91u+rztLYAvi3/RO2AjZnwA==",
+  "dgSpecHash": "wIPMjl09VZWKo87cCT/a6XutBWnG4dpJdWbvXxTvfZIbKjY8oJwOH3fGgpHGlgtLlvMnh+n1Fqm7U/RFWUh+jQ==",
   "success": true,
   "projectFilePath": "D:\\QTDA nhom 6\\45K211_06\\IMD\\IMD\\IMD.iOS\\IMD.iOS.csproj",
   "expectedPackageFiles": [
@@ -13,7 +13,10 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.build.download\\0.11.0\\xamarin.build.download.0.11.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.firebase.ios.auth\\8.10.0\\xamarin.firebase.ios.auth.8.10.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.firebase.ios.core\\8.10.0\\xamarin.firebase.ios.core.8.10.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []

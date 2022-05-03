@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "495973495766",
+    "project_id": "user-imd",
+    "storage_bucket": "user-imd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495973495766:android:5fa17f8920ba21785baa77",
+        "android_client_info": {
+          "package_name": "com.dhkt.imd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495973495766-b01guvql9nmd89s071hn4ft5cv01jpoa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQVB3khOK58NToMGz2Ublf_GhaSFfTW0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495973495766-b01guvql9nmd89s071hn4ft5cv01jpoa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "495973495766-4vdom4pvn1opob2gucpcvq9bmkqsc7jh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.dhkt.imd",
+                "app_store_id": "4521106"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

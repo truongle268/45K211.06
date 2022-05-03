@@ -13,7 +13,7 @@
                         Margin="20,5,20,0">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <SwipeView>
+                    <SwipeView IsEnabled="{Binding BindingContext.IsAdmin, Source={RelativeSource FindAncestor, AncestorType={x:Type ContentPage}}}">
                         <SwipeView.RightItems>
                             <SwipeItems>
                                 <SwipeItem Text="Sửa"

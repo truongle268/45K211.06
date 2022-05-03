@@ -6,12 +6,14 @@ namespace IMD.Models
 {
     public class User
     {
-        public string Bsx { get; set; }
-        public string Hovaten { get; set; }
-        public int Msv { get; set; }
-        public string Dongxe { get; set; }
-        public string Mauxe { get; set; }
-        public string Password { get; set; }
-
+        public string HoTen { get; set; }
+        public string MaSV { get; set; }
+        public string BienSo { get; set; }
+        public string DongXe { get; set; }
+        public string MauXe { get; set; }
+        public string NhapMatKhau { get; set; }
+        public string NhapLaiMatKhau { get; set; }
+        public string Uid { get; set; }
     }
+
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kZGF+U1uHBJJxt48JuiStNWP9VYeZFIp81Wx8a7NXYm/XqLbTyHZH/zdvq7J0pIp8zxnt24xKIvkC7+mZj5fbQ==",
+  "dgSpecHash": "xHP0S+PMElcAYqMeqMXZULd8AmEfxMQ9ihqDkN+AOF1iOFVc1ZQmxloNwSpJbAK9ZAr6gJOPkAikLcW/C2ioVg==",
   "success": true,
   "projectFilePath": "D:\\QTDA nhom 6\\45K211_06\\IMD\\IMD\\IMD.Android\\IMD.Android.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,12 @@
     "C:\\Users\\DELL\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.android.support.annotations\\26.0.2\\xamarin.android.support.annotations.26.0.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.android.support.compat\\26.0.2\\xamarin.android.support.compat.26.0.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.android.support.core.ui\\26.0.2\\xamarin.android.support.core.ui.26.0.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.android.support.core.utils\\26.0.2\\xamarin.android.support.core.utils.26.0.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.android.support.fragment\\26.0.2\\xamarin.android.support.fragment.26.0.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.android.support.media.compat\\26.0.2\\xamarin.android.support.media.compat.26.0.2.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",
@@ -58,10 +64,20 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.versionedparcelable\\1.1.1.6\\xamarin.androidx.versionedparcelable.1.1.1.6.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.viewpager\\1.0.0.6\\xamarin.androidx.viewpager.1.0.0.6.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.viewpager2\\1.0.0.8\\xamarin.androidx.viewpager2.1.0.0.8.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.build.download\\0.4.9\\xamarin.build.download.0.4.9.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.firebase.analytics\\60.1142.1\\xamarin.firebase.analytics.60.1142.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.firebase.analytics.impl\\60.1142.1\\xamarin.firebase.analytics.impl.60.1142.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.firebase.auth\\60.1142.1\\xamarin.firebase.auth.60.1142.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.firebase.common\\60.1142.1\\xamarin.firebase.common.60.1142.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.firebase.core\\60.1142.1\\xamarin.firebase.core.60.1142.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.firebase.iid\\60.1142.1\\xamarin.firebase.iid.60.1142.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.android.material\\1.2.1.1\\xamarin.google.android.material.1.2.1.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.googleplayservices.base\\60.1142.1\\xamarin.googleplayservices.base.60.1142.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.googleplayservices.basement\\60.1142.1\\xamarin.googleplayservices.basement.60.1142.1.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.googleplayservices.tasks\\60.1142.1\\xamarin.googleplayservices.tasks.60.1142.1.nupkg.sha512"
   ],
   "logs": []
 }
