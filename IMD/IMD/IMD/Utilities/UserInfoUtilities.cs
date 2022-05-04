@@ -59,8 +59,6 @@ namespace IMD.Utilities
         {
             using (HttpClient http = new HttpClient())
             {
-                //http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer");
-                //http.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/json");
 
                 try
                 {
@@ -82,7 +80,7 @@ namespace IMD.Utilities
                 }
                 catch (Exception ee)
                 {
-                    // res = Application.Current.Resources["txtCoLoi"] as string;
+
                 }
             }
 
@@ -121,8 +119,6 @@ namespace IMD.Utilities
         {
             using (HttpClient http = new HttpClient())
             {
-                //http.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer");
-                //http.DefaultRequestHeaders.TryAddWithoutValidation("Content-Type", "application/json");
 
                 try
                 {
@@ -144,7 +140,7 @@ namespace IMD.Utilities
                 }
                 catch (Exception ee)
                 {
-                    // res = Application.Current.Resources["txtCoLoi"] as string;
+
                 }
             }
 

@@ -19,8 +19,6 @@ namespace IMD
             InitializeComponent();
             auth = DependencyService.Get<IAuth>();
 
-            txtUsername.Text = "59b2-12345";
-            txtPassword.Text = "123456";
         }
 
         async void Button_Clicked(object sender, EventArgs e)
@@ -34,7 +32,7 @@ namespace IMD
             }
             else
             {
-               await DisplayAlert("Alert", "Tên đăng nhập hoặc mật khẩu không đúng!", "Ok");
+               await DisplayAlert("Thông báo", "Tên đăng nhập hoặc mật khẩu không đúng!", "Ok");
             }    
         }
 

@@ -35,7 +35,7 @@
         </CarouselView>
         <StackLayout Orientation="Horizontal">
             <Label Text="Các chức năng chính" TextColor="#150295" FontSize="24" FontAttributes="Bold" Margin="15"/>
-            <Label HorizontalOptions="EndAndExpand" Text="Show all" TextColor="Gray" FontSize="18" FontAttributes="None" VerticalTextAlignment="Center" Margin="15"/>
+            
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
@@ -46,29 +46,29 @@
                 </Style>
             </StackLayout.Resources>
             <StackLayout Margin="5" WidthRequest="100">
-                <ImageButton  HorizontalOptions="Center"  Source="https://www.clipartmax.com/png/middle/16-166953_information-symbol-cliparts-clip-art-information.png" HeightRequest="50" Clicked="Button_ClickedShow" />
+                <ImageButton  BackgroundColor="Transparent"  HorizontalOptions="Center"  Source="https://pics.freeicons.io/uploads/icons/png/7609509141582985678-512.png" HeightRequest="50" Clicked="Button_ClickedShow" />
                 <Label HorizontalOptions="Center"  Text="Thông tin" TextColor="Gray"  FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
 
             </StackLayout>
 
             <StackLayout  Margin="5" WidthRequest="100">
-                <ImageButton  HorizontalOptions="Center"  Source="https://cdn-icons-png.flaticon.com/512/3306/3306630.png" HeightRequest="50" Clicked="Button_Clicked2" />
+                <ImageButton  BackgroundColor="Transparent" HorizontalOptions="Center"  Source="https://cdn-icons-png.flaticon.com/512/3306/3306630.png" HeightRequest="50" Clicked="Button_Clicked2" />
                 <Label HorizontalOptions="Center" Text="Thông báo" TextColor="Gray"  FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
 
             </StackLayout>
             <StackLayout  Margin="5" WidthRequest="100">
-                <ImageButton  HorizontalOptions="Center"  Source="feedback.png" HeightRequest="50" Clicked="Button_Feedback" />
+                <ImageButton BackgroundColor="Transparent"  HorizontalOptions="Center"  Source="feedback.png" HeightRequest="50" Clicked="Button_Feedback" />
                 <Label HorizontalOptions="Center" Text="Feedback" TextColor="Gray"  FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
 
             </StackLayout>
             <StackLayout  Margin="5" WidthRequest="100" x:Name="btnManage">
-                <ImageButton  HorizontalOptions="Center"  Source="logout.png" HeightRequest="50" Clicked="Button_Clicked_Manage" />
+                <ImageButton BackgroundColor="Transparent"  HorizontalOptions="Center"  Source="https://pics.freeicons.io/uploads/icons/png/17163053371601624346-512.png" HeightRequest="50" Clicked="Button_Clicked_Manage" />
                 <Label HorizontalOptions="Center" Text="Manage" TextColor="Gray"  FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
 
             </StackLayout>
 
             <StackLayout  Margin="5" WidthRequest="100">
-                <ImageButton  HorizontalOptions="Center"  Source="logout.png" HeightRequest="50" Clicked="Button_Clicked3" />
+                <ImageButton BackgroundColor="Transparent"  HorizontalOptions="Center"  Source="logout.png" HeightRequest="50" Clicked="Button_Clicked3" />
                 <Label HorizontalOptions="Center" Text="Đăng xuất" TextColor="Gray"  FontAttributes="None" VerticalTextAlignment="Center" Margin="10"/>
 
             </StackLayout>

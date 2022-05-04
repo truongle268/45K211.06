@@ -36,7 +36,7 @@ namespace IMD
             }
             else
             {
-                DisplayAlert("Thông báo", "User không được thêm thông báo!", "OK");
+                DisplayAlert("Thông báo", "Người dùng không được thêm thông báo!", "OK");
             }
         }
 

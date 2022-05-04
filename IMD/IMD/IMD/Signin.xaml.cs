@@ -24,19 +24,6 @@ namespace IMD
 
         async void Button_ClickedSignin(object sender, EventArgs e)
         {
-            //if (string.IsNullOrWhiteSpace(txtHovaten.Text) || 
-            //  string.IsNullOrWhiteSpace(txtMsv.Text) ||
-            //string.IsNullOrWhiteSpace(txtBsx.Text) ||
-            //string.IsNullOrWhiteSpace(txtDongxe.Text) ||
-            //string.IsNullOrWhiteSpace(txtMauxe.Text) ||
-            //string.IsNullOrWhiteSpace(txtNhapPassword.Text))
-            //{
-            //  await DisplayAlert("Thông báo!", "Bạn chưa nhập đầy đủ thông tin!", "OK");
-            //}
-            //else if (_showinfo != null)
-            //{
-            //  EditShowInfo();
-
             User user = new User()
             {
                 BienSo = txtBsx.Text,
@@ -59,9 +46,7 @@ namespace IMD
                 await DisplayAlert("Thành công", "Đã tạo tài khoản mới", "Ok");
             }
             Application.Current.MainPage.Navigation.PopAsync();
-            //}
-            //else
-            //  AddNewShowInfo();
+
         }
     }
 }

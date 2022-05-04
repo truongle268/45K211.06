@@ -8,8 +8,8 @@ androiddextool=d8
 androidlinktool=
 androidlinkresources=
 androidpackageformat=apk
-embedassembliesintoapk=false
-androidlinkmode=none
+embedassembliesintoapk=true
+androidlinkmode=sdkonly
 androidlinkskip=
 androidsdkbuildtoolsversion=30.0.2
 androidsdkpath=c:\program files (x86)\android\android-sdk\
@@ -20,15 +20,13 @@ xamarinandroidversion=12.0.0-3
 monosymbolarchive=false
 androiduselatestplatformsdk=false
 targetframeworkversion=v11.0
-androidcreatepackageperabi=
+androidcreatepackageperabi=false
 androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=637871969136744797
+_nugetassetstimestamp=637872645456545880
 typemapkind=strings-asm
-androidsupportedabis=arm64-v8a
-armeabi-v7a
-x86
-x86_64
+androidsupportedabis=armeabi-v7a
+arm64-v8a
 androidmanifestplaceholders=
